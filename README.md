@@ -300,7 +300,7 @@ sudo patronictl -c /etc/patroni/config.yml list
 | postgres01 | 10.131.0.15 | Leader | running |  1 |           |
 +------------+-------------+--------+---------+----+-----------+
 ```
-### Настроим остальные узлы кластера и проверим работу кластреа
+### Настроим остальные узлы кластера и проверим работу кластера
 ```bash
 yc-user@fv4r6nh3l4so2av4djd4:~$ sudo patronictl -c /etc/patroni/config.yml list
 + Cluster: postgres (7382273075804097608) -------+----+-----------+
