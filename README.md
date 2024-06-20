@@ -486,9 +486,19 @@ postgres=# SELECT inet_server_addr() AS hostname;
  10.131.0.6
 (1 row)
 
+postgres=# \dt
+              List of relations
+ Schema |       Name       | Type  |  Owner
+--------+------------------+-------+----------
+ public | pgbench_accounts | table | postgres
+ public | pgbench_branches | table | postgres
+ public | pgbench_history  | table | postgres
+ public | pgbench_tellers  | table | postgres
+(4 rows)
 postgres=# \q
 ```
 - подключились к серверу postgres03.
+- данные доступны
 
 ### Восстановим сервер postgres01
 ```bash
